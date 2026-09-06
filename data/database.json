@@ -1,0 +1,676 @@
+{
+  "advertiserBalance": 2450,
+  "publisherBalance": 1800.4315,
+  "platformTotalEarnings": 14892.4106,
+  "campaigns": [
+    {
+      "id": "cmp_9011",
+      "name": "Global Fintech & Trading Apps Tier-1",
+      "advertiserId": "adv_301",
+      "advertiserName": "Apex Capital Media",
+      "adFormat": "popunder",
+      "pricingModel": "CPM",
+      "bid": 2.85,
+      "dailyBudget": 250,
+      "totalBudget": 3500,
+      "spent": 1420.5029,
+      "targetGeos": [
+        "US",
+        "GB",
+        "CA",
+        "DE",
+        "AU"
+      ],
+      "targetDevices": [
+        "desktop",
+        "mobile"
+      ],
+      "targetCategories": [
+        "Finance",
+        "Crypto",
+        "Investments"
+      ],
+      "status": "active",
+      "landingUrl": "https://broker-offer.hilltopnetwork.pro/trading?aff=tier1",
+      "fraudSensitivity": "strict",
+      "impressions": 498421,
+      "clicks": 14953,
+      "conversions": 890,
+      "createdAt": "2026-09-01T00:39:23.614Z"
+    },
+    {
+      "id": "cmp_9012",
+      "name": "Mobile Utility & Clean Optimizer Smartlink",
+      "advertiserId": "adv_302",
+      "advertiserName": "Nova Apps Global",
+      "adFormat": "direct_link",
+      "pricingModel": "CPC",
+      "bid": 0.18,
+      "dailyBudget": 400,
+      "totalBudget": 5000,
+      "spent": 2190.2,
+      "targetGeos": [
+        "US",
+        "IN",
+        "BR",
+        "MX",
+        "ID"
+      ],
+      "targetDevices": [
+        "mobile"
+      ],
+      "targetCategories": [
+        "Utilities",
+        "Software",
+        "Games"
+      ],
+      "status": "active",
+      "landingUrl": "https://smartlink.hilltopnetwork.pro/cleaner?v=boost",
+      "fraudSensitivity": "maximum",
+      "impressions": 124090,
+      "clicks": 12167,
+      "conversions": 1420,
+      "createdAt": "2026-08-29T00:39:23.614Z"
+    },
+    {
+      "id": "cmp_9013",
+      "name": "CyberSec Antivirus In-Page Push High-CTR",
+      "advertiserId": "adv_303",
+      "advertiserName": "ShieldGuard Software",
+      "adFormat": "in_page_push",
+      "pricingModel": "CPC",
+      "bid": 0.24,
+      "dailyBudget": 180,
+      "totalBudget": 2200,
+      "spent": 894.1,
+      "targetGeos": [
+        "US",
+        "FR",
+        "IT",
+        "ES"
+      ],
+      "targetDevices": [
+        "desktop",
+        "mobile",
+        "tablet"
+      ],
+      "targetCategories": [
+        "Security",
+        "Tech"
+      ],
+      "status": "active",
+      "landingUrl": "https://security-alert.hilltopnetwork.pro/scan",
+      "adTitle": "System Alert: Potential Threat Detected",
+      "adBody": "Update your virus definitions now to maintain optimal performance.",
+      "fraudSensitivity": "strict",
+      "impressions": 89200,
+      "clicks": 3725,
+      "conversions": 412,
+      "createdAt": "2026-09-03T00:39:23.614Z"
+    },
+    {
+      "id": "cmp_9014",
+      "name": "E-Commerce Mega Sale 300x250 Display",
+      "advertiserId": "adv_304",
+      "advertiserName": "OmniDeals Direct",
+      "adFormat": "banner",
+      "bannerSize": "300x250",
+      "pricingModel": "CPM",
+      "bid": 1.45,
+      "dailyBudget": 150,
+      "totalBudget": 1800,
+      "spent": 420.8,
+      "targetGeos": [
+        "US",
+        "CA",
+        "GB"
+      ],
+      "targetDevices": [
+        "desktop",
+        "tablet"
+      ],
+      "targetCategories": [
+        "Shopping",
+        "Lifestyle"
+      ],
+      "status": "active",
+      "landingUrl": "https://shop-deals.hilltopnetwork.pro/promotions",
+      "fraudSensitivity": "standard",
+      "impressions": 290200,
+      "clicks": 1160,
+      "conversions": 88,
+      "createdAt": "2026-09-04T00:39:23.614Z"
+    }
+  ],
+  "zones": [
+    {
+      "id": "zone_5328",
+      "publisherId": "pub_user",
+      "publisherName": "Verified Webmaster",
+      "siteUrl": "https://sportsnewselite.blogspot.com",
+      "zoneName": "sports news",
+      "format": "banner",
+      "bannerSize": "728x90",
+      "antiAdblockEnabled": true,
+      "status": "active",
+      "impressions": 5,
+      "clicks": 3,
+      "eCPM": 9.46,
+      "grossRevenue": 0.0473,
+      "publisherEarnings": 0.0354,
+      "platformCommission": 0.0118,
+      "createdAt": "2026-09-06T01:25:00.000Z"
+    },
+    {
+      "id": "zone_7571",
+      "publisherId": "pub_user",
+      "publisherName": "Verified Webmaster",
+      "siteUrl": "https://mycoolsite.com",
+      "zoneName": "My Cool Banner",
+      "format": "banner",
+      "bannerSize": "300x250",
+      "antiAdblockEnabled": true,
+      "status": "active",
+      "impressions": 2,
+      "clicks": 1,
+      "eCPM": 2.35,
+      "grossRevenue": 0.0047,
+      "publisherEarnings": 0.0035,
+      "platformCommission": 0.0012,
+      "createdAt": "2026-09-06T01:13:59.307Z"
+    },
+    {
+      "id": "zone_9710",
+      "publisherId": "pub_user",
+      "publisherName": "Verified Webmaster",
+      "siteUrl": "https://mytechblog.com",
+      "zoneName": "Header Banner 728x90",
+      "format": "banner",
+      "bannerSize": "728x90",
+      "antiAdblockEnabled": true,
+      "status": "active",
+      "impressions": 0,
+      "clicks": 0,
+      "eCPM": 1.85,
+      "grossRevenue": 0,
+      "publisherEarnings": 0,
+      "platformCommission": 0,
+      "createdAt": "2026-09-06T01:06:35.398Z"
+    },
+    {
+      "id": "zone_4805",
+      "publisherId": "pub_user",
+      "publisherName": "Verified Webmaster",
+      "siteUrl": "https://test.com",
+      "zoneName": "Test Zone",
+      "format": "popunder",
+      "antiAdblockEnabled": true,
+      "status": "active",
+      "impressions": 0,
+      "clicks": 0,
+      "eCPM": 2.65,
+      "grossRevenue": 0,
+      "publisherEarnings": 0,
+      "platformCommission": 0,
+      "createdAt": "2026-09-06T01:03:14.801Z"
+    },
+    {
+      "id": "zone_4801",
+      "publisherId": "pub_101",
+      "publisherName": "TechDaily Media Hub",
+      "siteUrl": "https://techdailyhub.org",
+      "zoneName": "Desktop & Mobile Popunder (Anti-AdBlock)",
+      "format": "popunder",
+      "antiAdblockEnabled": true,
+      "status": "active",
+      "impressions": 842100,
+      "clicks": 25260,
+      "eCPM": 2.34,
+      "grossRevenue": 1970.51,
+      "publisherEarnings": 1477.88,
+      "platformCommission": 492.63,
+      "createdAt": "2026-08-23T00:39:23.614Z"
+    },
+    {
+      "id": "zone_4802",
+      "publisherId": "pub_102",
+      "publisherName": "Social Stream Viral Portal",
+      "siteUrl": "https://socialtrendsviral.com",
+      "zoneName": "Direct Smartlink Social Traffic",
+      "format": "direct_link",
+      "antiAdblockEnabled": true,
+      "status": "active",
+      "impressions": 340900,
+      "clicks": 34090,
+      "eCPM": 3.12,
+      "grossRevenue": 1063.6,
+      "publisherEarnings": 797.7,
+      "platformCommission": 265.9,
+      "createdAt": "2026-08-27T00:39:23.614Z"
+    },
+    {
+      "id": "zone_4803",
+      "publisherId": "pub_103",
+      "publisherName": "Gaming Arena Live",
+      "siteUrl": "https://gamearenaworld.net",
+      "zoneName": "In-Page Push Toast - All Pages",
+      "format": "in_page_push",
+      "antiAdblockEnabled": true,
+      "status": "active",
+      "impressions": 215400,
+      "clicks": 7539,
+      "eCPM": 1.85,
+      "grossRevenue": 398.49,
+      "publisherEarnings": 298.87,
+      "platformCommission": 99.62,
+      "createdAt": "2026-08-31T00:39:23.614Z"
+    },
+    {
+      "id": "zone_4804",
+      "publisherId": "pub_104",
+      "publisherName": "Downloads & Tools Central",
+      "siteUrl": "https://toolsportalfree.io",
+      "zoneName": "Sidebar Banner 300x250 Responsive",
+      "format": "banner",
+      "bannerSize": "300x250",
+      "antiAdblockEnabled": false,
+      "status": "active",
+      "impressions": 180500,
+      "clicks": 902,
+      "eCPM": 1.15,
+      "grossRevenue": 207.57,
+      "publisherEarnings": 155.68,
+      "platformCommission": 51.89,
+      "createdAt": "2026-09-02T00:39:23.614Z"
+    }
+  ],
+  "fraudRules": [
+    {
+      "id": "rule_1",
+      "name": "Data Center / Hosting ASN Blocker (AWS, OVH, DigitalOcean)",
+      "type": "datacenter_asn",
+      "enabled": true,
+      "action": "block",
+      "triggeredCount": 14280
+    },
+    {
+      "id": "rule_2",
+      "name": "Headless Browser & Automation Fingerprint Detection",
+      "type": "bot_user_agent",
+      "enabled": true,
+      "action": "block",
+      "triggeredCount": 8931
+    },
+    {
+      "id": "rule_3",
+      "name": "High-Frequency Click Velocity Rate Limiter (<150ms clicks)",
+      "type": "click_velocity",
+      "enabled": true,
+      "action": "block",
+      "triggeredCount": 4210
+    },
+    {
+      "id": "rule_4",
+      "name": "Zero-Dwell Time Bounce Detector (<1s instant bounce)",
+      "type": "dwell_time",
+      "enabled": true,
+      "action": "flag",
+      "triggeredCount": 3105
+    },
+    {
+      "id": "rule_5",
+      "name": "Proxy & Tor Exit Node Real-Time Threat Intelligence",
+      "type": "ip_reputation",
+      "enabled": true,
+      "action": "block",
+      "triggeredCount": 9450
+    }
+  ],
+  "fraudLogs": [
+    {
+      "id": "fl_1788680458646_406",
+      "timestamp": "2026-09-06T07:40:58.646Z",
+      "ip": "127.0.0.1",
+      "country": "US",
+      "userAgent": "curl/7.88.1",
+      "zoneId": "zone_7571",
+      "reason": "Detected headless/automated user-agent (curl/); Anomalous or blank User-Agent header",
+      "score": 100,
+      "actionTaken": "blocked"
+    },
+    {
+      "id": "fl_891",
+      "timestamp": "2026-09-06T00:36:23.614Z",
+      "ip": "185.220.101.5",
+      "country": "DE",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (Tor Node)",
+      "zoneId": "zone_4801",
+      "reason": "Known Tor Exit Node & Automated Click Velocity",
+      "score": 96,
+      "actionTaken": "blocked"
+    },
+    {
+      "id": "fl_892",
+      "timestamp": "2026-09-06T00:27:23.614Z",
+      "ip": "54.210.88.19",
+      "country": "US",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 HeadlessChrome/124.0.0.0",
+      "zoneId": "zone_4802",
+      "reason": "Headless Chrome Automation & AWS DataCenter ASN",
+      "score": 99,
+      "actionTaken": "blocked"
+    },
+    {
+      "id": "fl_893",
+      "timestamp": "2026-09-06T00:14:23.614Z",
+      "ip": "194.26.29.112",
+      "country": "RU",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_5) AppleWebKit/605.1.15 Mobile/15E148",
+      "zoneId": "zone_4803",
+      "reason": "Abnormal Click Burst: 18 clicks in 2.1 seconds",
+      "score": 88,
+      "actionTaken": "quarantined"
+    },
+    {
+      "id": "fl_894",
+      "timestamp": "2026-09-05T23:51:23.614Z",
+      "ip": "45.154.255.8",
+      "country": "NL",
+      "userAgent": "Python-urllib/3.10",
+      "zoneId": "zone_4801",
+      "reason": "Automated Scraping Bot User-Agent",
+      "score": 100,
+      "actionTaken": "blocked"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "aud_1788657606192_440",
+      "timestamp": "2026-09-06T01:20:06.192Z",
+      "adminId": "demo",
+      "adminName": "Publisher Financial Hub",
+      "action": "PAYOUT_INSTANT_SETTLED",
+      "category": "FINANCIAL",
+      "targetResource": "DISBURSEMENT: $25.00 to demo via PAYPAL (INSTANT) [Txn: PP_INSTANT_LYWECVTF_6192]",
+      "status": "SUCCESS",
+      "ipAddress": "10.0.0.1",
+      "checksum": "qbrl1mvf43cpcamf924w"
+    },
+    {
+      "id": "aud_1788657533838_985",
+      "timestamp": "2026-09-06T01:18:53.838Z",
+      "adminId": "admin_super",
+      "adminName": "Security Administrator",
+      "action": "MFA_VERIFICATION_PASSED",
+      "category": "SECURITY",
+      "targetResource": "ADMIN_SESSION",
+      "status": "SUCCESS",
+      "ipAddress": "10.0.0.1",
+      "checksum": "fblpsfjvegk76krn5g01"
+    },
+    {
+      "id": "aud_1788657239307_401",
+      "timestamp": "2026-09-06T01:13:59.307Z",
+      "adminId": "test_visitor_a",
+      "adminName": "Publisher Portal",
+      "action": "ZONE_CREATED",
+      "category": "ZONE",
+      "targetResource": "zone_7571",
+      "status": "SUCCESS",
+      "ipAddress": "10.0.0.1",
+      "checksum": "y71phrw98n6hce16bh7y"
+    },
+    {
+      "id": "aud_1788656797625_733",
+      "timestamp": "2026-09-06T01:06:37.625Z",
+      "adminId": "pub_current",
+      "adminName": "Publisher Financial Hub",
+      "action": "PAYOUT_INSTANT_SETTLED",
+      "category": "FINANCIAL",
+      "targetResource": "DISBURSEMENT: $50.00 via PAYPAL (INSTANT) [Txn: PP_INSTANT_03IUYVW3_7625]",
+      "status": "SUCCESS",
+      "ipAddress": "10.0.0.1",
+      "checksum": "h23jzwi1dwgkkkd9e34h"
+    },
+    {
+      "id": "aud_1788656795398_593",
+      "timestamp": "2026-09-06T01:06:35.398Z",
+      "adminId": "pub_current",
+      "adminName": "Publisher Portal",
+      "action": "ZONE_CREATED",
+      "category": "ZONE",
+      "targetResource": "zone_9710",
+      "status": "SUCCESS",
+      "ipAddress": "10.0.0.1",
+      "checksum": "awknv2u6k0co6a45i61v"
+    },
+    {
+      "id": "aud_1788656594801_86",
+      "timestamp": "2026-09-06T01:03:14.801Z",
+      "adminId": "pub_current",
+      "adminName": "Publisher Portal",
+      "action": "ZONE_CREATED",
+      "category": "ZONE",
+      "targetResource": "zone_4801",
+      "status": "SUCCESS",
+      "ipAddress": "10.0.0.1",
+      "checksum": "smdr8u4iw2bigmjgb8dw"
+    },
+    {
+      "id": "aud_1001",
+      "timestamp": "2026-09-06T00:24:23.614Z",
+      "adminId": "adm_master",
+      "adminName": "Platform Security Officer",
+      "action": "COMMISSION_RATE_AUDIT",
+      "category": "FINANCIAL",
+      "targetResource": "SYSTEM_SETTINGS: 25% platform margin locked",
+      "status": "SUCCESS",
+      "ipAddress": "10.0.4.12",
+      "checksum": "e7a19f20c48b21aa80c4"
+    },
+    {
+      "id": "aud_1002",
+      "timestamp": "2026-09-05T23:54:23.614Z",
+      "adminId": "adm_master",
+      "adminName": "Platform Security Officer",
+      "action": "MFA_CHALLENGE_VERIFIED",
+      "category": "SECURITY",
+      "targetResource": "ADMIN_CONSOLE_ACCESS",
+      "status": "SUCCESS",
+      "ipAddress": "10.0.4.12",
+      "checksum": "c24b910fae372d89001b"
+    },
+    {
+      "id": "aud_1003",
+      "timestamp": "2026-09-05T23:09:23.614Z",
+      "adminId": "adm_sys",
+      "adminName": "Automated Backup Daemon",
+      "action": "DATABASE_BACKUP_COMPLETED",
+      "category": "BACKUP",
+      "targetResource": "backup_snapshot_daily_auto.json",
+      "status": "SUCCESS",
+      "ipAddress": "127.0.0.1",
+      "checksum": "b94e8201a091bde44109"
+    },
+    {
+      "id": "aud_1004",
+      "timestamp": "2026-09-05T21:39:23.614Z",
+      "adminId": "adm_master",
+      "adminName": "Platform Security Officer",
+      "action": "ZONE_ANTI_ADBLOCK_ENFORCED",
+      "category": "ZONE",
+      "targetResource": "zone_4801 (TechDaily Media Hub)",
+      "status": "SUCCESS",
+      "ipAddress": "10.0.4.12",
+      "checksum": "d8820c7104b901aef031"
+    }
+  ],
+  "backups": [
+    {
+      "id": "bk_20260905_01",
+      "filename": "hilltop_db_snapshot_2026-09-05.json",
+      "sizeBytes": 248920,
+      "createdAt": "2026-09-05T23:09:23.614Z",
+      "type": "AUTOMATED_CRON",
+      "checksum": "sha256:7f4a9b2190cde104a9",
+      "status": "VERIFIED"
+    },
+    {
+      "id": "bk_20260904_02",
+      "filename": "hilltop_db_snapshot_2026-09-04.json",
+      "sizeBytes": 239100,
+      "createdAt": "2026-09-05T00:39:23.614Z",
+      "type": "AUTOMATED_CRON",
+      "checksum": "sha256:4a8b991cf8e2340101",
+      "status": "HEALTHY"
+    },
+    {
+      "id": "bk_20260903_03",
+      "filename": "hilltop_db_snapshot_2026-09-03.json",
+      "sizeBytes": 231400,
+      "createdAt": "2026-09-04T00:39:23.614Z",
+      "type": "AUTOMATED_CRON",
+      "checksum": "sha256:99c23ea14b709df882",
+      "status": "HEALTHY"
+    }
+  ],
+  "payouts": [
+    {
+      "id": "pay_1788657606192",
+      "publisherId": "demo",
+      "amount": 25,
+      "method": "paypal",
+      "payoutAddress": "juan8191327@gmail.com",
+      "speed": "instant",
+      "status": "COMPLETED",
+      "txnHash": "PP_INSTANT_LYWECVTF_6192",
+      "requestedAt": "2026-09-06T01:20:06.192Z",
+      "settledAt": "2026-09-06T01:20:06.192Z",
+      "isRealDisbursement": false,
+      "gatewayMessage": "Processed via platform sandbox ledger. To disburse real funds to PayPal, configure PAYPAL_CLIENT_ID and PAYPAL_CLIENT_SECRET in Settings."
+    },
+    {
+      "id": "pay_1788656797625",
+      "amount": 50,
+      "method": "paypal",
+      "payoutAddress": "mypartner@webmaster.org",
+      "speed": "instant",
+      "status": "COMPLETED",
+      "txnHash": "PP_INSTANT_03IUYVW3_7625",
+      "requestedAt": "2026-09-06T01:06:37.625Z",
+      "settledAt": "2026-09-06T01:06:37.625Z"
+    },
+    {
+      "id": "pay_9901",
+      "amount": 450,
+      "method": "paypal",
+      "payoutAddress": "pub-direct-payout@partner.net",
+      "speed": "instant",
+      "status": "COMPLETED",
+      "txnHash": "PP_INSTANT_TXN_8849102",
+      "requestedAt": "2026-09-05T01:06:30.003Z",
+      "settledAt": "2026-09-05T01:06:42.003Z"
+    },
+    {
+      "id": "pay_9902",
+      "amount": 1250,
+      "method": "usdt",
+      "payoutAddress": "TJ7sP19xxLkmNwEa78Vd...",
+      "speed": "instant",
+      "status": "COMPLETED",
+      "txnHash": "TRC20_0x8f19da37bc11e9a2",
+      "requestedAt": "2026-09-02T01:06:30.003Z",
+      "settledAt": "2026-09-02T01:07:15.003Z"
+    }
+  ],
+  "publisherAccounts": {
+    "pub_user": {
+      "id": "pub_user",
+      "name": "Verified Webmaster",
+      "balance": 0.0316,
+      "createdAt": "2026-09-06T01:00:00.000Z"
+    },
+    "test_visitor_a": {
+      "id": "test_visitor_a",
+      "name": "Publisher TEST_V",
+      "balance": 0,
+      "createdAt": "2026-09-06T01:13:54.759Z"
+    },
+    "demo": {
+      "id": "demo",
+      "name": "Demo Publisher Account",
+      "balance": 1850.4,
+      "createdAt": "2026-09-06T01:13:56.852Z"
+    },
+    "test_visitor_b": {
+      "id": "test_visitor_b",
+      "name": "Publisher TEST_V",
+      "balance": 0,
+      "createdAt": "2026-09-06T01:14:01.510Z"
+    },
+    "pub_si0q2teb": {
+      "id": "pub_si0q2teb",
+      "name": "Publisher SI0Q2T",
+      "balance": 0,
+      "createdAt": "2026-09-06T01:17:56.697Z"
+    },
+    "pub_ayde5tsx": {
+      "id": "pub_ayde5tsx",
+      "name": "Publisher AYDE5T",
+      "balance": 0,
+      "createdAt": "2026-09-06T01:19:29.454Z"
+    },
+    "pub_default": {
+      "id": "pub_default",
+      "name": "Publisher DEFAUL",
+      "balance": 0,
+      "createdAt": "2026-09-06T02:04:22.333Z"
+    }
+  },
+  "publisherPayouts": {
+    "demo": [
+      {
+        "id": "pay_1788657606192",
+        "publisherId": "demo",
+        "amount": 25,
+        "method": "paypal",
+        "payoutAddress": "juan8191327@gmail.com",
+        "speed": "instant",
+        "status": "COMPLETED",
+        "txnHash": "PP_INSTANT_LYWECVTF_6192",
+        "requestedAt": "2026-09-06T01:20:06.192Z",
+        "settledAt": "2026-09-06T01:20:06.192Z",
+        "isRealDisbursement": false,
+        "gatewayMessage": "Processed via platform sandbox ledger. To disburse real funds to PayPal, configure PAYPAL_CLIENT_ID and PAYPAL_CLIENT_SECRET in Settings."
+      }
+    ]
+  },
+  "trafficHits": [
+    {
+      "id": "hit_1788687907046_5250",
+      "zoneId": "zone_5328",
+      "zoneName": "sports news",
+      "type": "click",
+      "referrer": "https://sportsnewselite.blogspot.com/",
+      "sourceDomain": "sportsnewselite.blogspot.com",
+      "ipMasked": "127.0.xxx.xxx",
+      "userAgentSnippet": "Web Browser",
+      "earned": 0.02625,
+      "timestamp": "2026-09-06T09:45:07.046Z",
+      "status": "verified"
+    },
+    {
+      "id": "hit_1788687901905_4072",
+      "zoneId": "zone_5328",
+      "zoneName": "sports news",
+      "type": "impression",
+      "referrer": "https://sportsnewselite.blogspot.com/",
+      "sourceDomain": "sportsnewselite.blogspot.com",
+      "ipMasked": "127.0.xxx.xxx",
+      "userAgentSnippet": "Web Browser",
+      "earned": 0.00184,
+      "timestamp": "2026-09-06T09:45:01.905Z",
+      "status": "verified"
+    }
+  ]
+}

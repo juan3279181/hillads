@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/api/serve/banner-frame/(.*)",
+      "destination": "/banner-frame.html?zone=$1"
+    },
+    {
+      "source": "/api/serve/ad-tag/(.*)",
+      "destination": "/ad-tag.js"
+    },
+    {
+      "source": "/api/serve/direct-link/(.*)",
+      "destination": "/offer.html?zone=$1"
+    },
+    {
+      "source": "/api/(.*)",
+      "destination": "/api"
+    },
+    {
+      "source": "/((?!assets/|favicon.ico|.*\\..*).*)",
+      "destination": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET, POST, OPTIONS, PATCH, DELETE" },
+        { "key": "Access-Control-Allow-Headers", "value": "Content-Type, x-publisher-id, Authorization" },
+        { "key": "Content-Security-Policy", "value": "frame-ancestors *" }
+      ]
+    }
+  ]
+}

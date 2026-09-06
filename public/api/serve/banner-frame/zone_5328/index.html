@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Apex Sports Network &bull; Sponsored Partner</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #0f172a;
+      color: #f8fafc;
+      overflow: hidden;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      user-select: none;
+    }
+    .ad-container {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+      border: 1.5px solid #f59e0b;
+      border-radius: 8px;
+      padding: 8px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      position: relative;
+      transition: all 0.2s ease;
+    }
+    .ad-container:hover {
+      border-color: #fbbf24;
+      background: linear-gradient(135deg, #243248 0%, #111c30 100%);
+      box-shadow: 0 4px 15px rgba(245, 158, 11, 0.25);
+    }
+    .badge-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 3px;
+      flex-shrink: 0;
+    }
+    .badge {
+      font-size: 8px;
+      background: #f59e0b;
+      color: #0f172a;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-weight: 800;
+      letter-spacing: 0.6px;
+      text-transform: uppercase;
+    }
+    .shield-txt {
+      font-size: 8px;
+      color: #10b981;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 2px;
+    }
+    .content-wrap {
+      flex: 1;
+      min-width: 0;
+      text-align: left;
+      padding: 0 4px;
+    }
+    .title {
+      font-size: 13px;
+      font-weight: 800;
+      color: #ffffff;
+      line-height: 1.25;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .desc {
+      font-size: 10.5px;
+      color: #94a3b8;
+      line-height: 1.3;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-top: 2px;
+    }
+    .action-wrap {
+      flex-shrink: 0;
+    }
+    .cta-btn {
+      background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+      color: #0f172a;
+      padding: 8px 18px;
+      border-radius: 6px;
+      font-size: 11px;
+      font-weight: 800;
+      border: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+      box-shadow: 0 2px 8px rgba(245, 158, 11, 0.35);
+      transition: transform 0.15s ease;
+      white-space: nowrap;
+    }
+    .cta-btn:hover {
+      transform: scale(1.03);
+    }
+  </style>
+</head>
+<body>
+  <div class="ad-container" id="adBox">
+    <div class="badge-wrap">
+      <span class="badge">Sponsored</span>
+      <span class="shield-txt">&#10003; HilltopAds Anti-AdBlock</span>
+    </div>
+    <div class="content-wrap">
+      <div class="title">Apex Live Sports Odds &amp; Betting Analysis (728x90)</div>
+      <div class="desc">Exclusive 100% deposit match bonus on verified sports forecasts &amp; instant payouts.</div>
+    </div>
+    <div class="action-wrap">
+      <button class="cta-btn" id="adBtn">Claim Bonus &rarr;</button>
+    </div>
+  </div>
+
+  <script>
+    (function() {
+      var zoneId = 'zone_5328';
+      var origin = window.location.origin;
+      var ref = '';
+      try {
+        ref = (window.top !== window.self) ? document.referrer : window.location.href;
+      } catch (e) {
+        ref = document.referrer || '';
+      }
+      if (!ref && document.referrer) ref = document.referrer;
+      var encodedRef = encodeURIComponent(ref || 'https://sportsnewselite.blogspot.com');
+
+      function trackImpression() {
+        try {
+          var url = origin + '/api/serve/track?zoneId=' + zoneId + '&type=impression&ref=' + encodedRef;
+          if (navigator.sendBeacon) {
+            navigator.sendBeacon(url);
+          } else {
+            new Image().src = url;
+          }
+        } catch (e) {}
+
+        try {
+          var payload = JSON.stringify({ type: 'impression', zoneId: zoneId, ref: ref, timestamp: Date.now() });
+          localStorage.setItem('hilltop_live_ad_event', payload);
+          if ('BroadcastChannel' in window) {
+            var bc = new BroadcastChannel('hilltop_ad_channel');
+            bc.postMessage({ type: 'impression', zoneId: zoneId, ref: ref, timestamp: Date.now() });
+            bc.close();
+          }
+        } catch (e) {}
+      }
+
+      trackImpression();
+
+      document.getElementById('adBox').addEventListener('click', function() {
+        try {
+          var url = origin + '/api/serve/track?zoneId=' + zoneId + '&type=click&ref=' + encodedRef;
+          if (navigator.sendBeacon) {
+            navigator.sendBeacon(url);
+          } else {
+            new Image().src = url;
+          }
+        } catch (e) {}
+
+        try {
+          var payload = JSON.stringify({ type: 'click', zoneId: zoneId, ref: ref, timestamp: Date.now() });
+          localStorage.setItem('hilltop_live_ad_event', payload);
+          if ('BroadcastChannel' in window) {
+            var bc = new BroadcastChannel('hilltop_ad_channel');
+            bc.postMessage({ type: 'click', zoneId: zoneId, ref: ref, timestamp: Date.now() });
+            bc.close();
+          }
+        } catch (e) {}
+
+        window.open(origin + '/offer.html?zone=' + zoneId, '_blank');
+      });
+    })();
+  </script>
+</body>
+</html>
